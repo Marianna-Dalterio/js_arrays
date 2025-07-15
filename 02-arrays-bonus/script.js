@@ -20,7 +20,7 @@ for (let i = teachers.length - 1; i >= 0; i--) {
 // con un nome di lunghezza maggiore o uguale a 5 caratteri
 const longNames = [];
 //usare un ciclo for per scorrere tutti i nomi dentro teachers
-//serve è un ciclo che parte da i = 0 e continua fino a quando i < teachers.length.
+//serve un ciclo che parte da i = 0 e continua fino a quando i < teachers.length.
 //il controllo con if va dentro il ciclo
 for (let i = 0; i < teachers.length; i++) {
   //teachers[i] è un nome (es. "Nathan")
