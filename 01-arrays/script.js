@@ -17,15 +17,18 @@ console.log(fourthTeacher)
 teachers.splice(4, 1, "Patrick")
 console.log(teachers)
 
+//METODO 2
+teachers[4] = "Patrick"
+
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers[6];
 teachers.pop()
-console.log(teachers)
+
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = teachers[0];
 teachers.shift()
-console.log(teachers)
+
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 teachers.push("Vanessa")
